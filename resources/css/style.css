@@ -1,4 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
-    font-family: 'Metropolis', 'Sans-serif';
+    font-family: "Metropolis", 'Sans-serif';
     font-weight: normal;
 }
