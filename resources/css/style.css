@@ -27,9 +27,33 @@ a.nav-btn:hover, .nav-btn:hover {
     border-color: transparent;
     color: #fff;
 }
+.text-para {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 38px;
+    color: #7D7D7D;
+}
+
+.btn {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 40px;
+    border-radius: 11px;
+    background: #717CFF;
+    border: 2px solid transparent;
+    outline: none;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.btn:hover {
+    border-color: #717CFF;
+    color: #ddd;
+}
 /***************************/
 /******HEADER-TOP-AREA******/
 /***************************/
+
 .logo {
     display: inline-block;
     float: left;
@@ -80,4 +104,85 @@ a.nav-btn:hover, .nav-btn:hover {
 
 .nav-btn {
     margin-left: 65px;
+}
+
+/***************************/
+/******SLIDER-AREA******/
+/***************************/
+.section-slider-area {
+    padding-top: 75px;
+    padding-bottom: 54px;
+    height: 100vh;
+}
+
+.slider-img {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.slider-img:after {
+    position: absolute;
+    content: "";
+    background: url(../img/slider-overlay.png);
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.slider-text-box {
+    padding-top: 75px;
+}
+
+.slider-text-box h1 {
+    font-size: 56px;
+    font-weight: 900;
+    padding-right: 140px;
+    line-height: 56px;
+    margin-bottom: 32px;
+}
+
+.slider-text-box h1 span {
+    color: #717CFF;
+}
+
+.slider-text-box .text-para {
+    height: 80px;
+    overflow: hidden;
+    margin-bottom: 36px;
+}
+.slider-btn {
+    padding: 8px 34px 12px;
+    margin-bottom: 100px;
+}
+.slider-btn span:last-child {
+    margin-left: 29px;
+}
+ul.slider-social-media-icon {
+    list-style: none;
+    padding-bottom: 54px;
+    margin: 0;
+    padding-left: 0;
+}
+ul.slider-social-media-icon li {
+    display: inline-block;
+    margin-right: 15px;
+}
+ul.slider-social-media-icon li a {
+    display: inline-block;
+    font-size: 32px;
+}
+ul.slider-social-media-icon .fa-facebook-f {
+    color: #3C5B9A;
+}
+
+ul.slider-social-media-icon .fa-twitter {
+    color: #236CD9;
+}
+
+ul.slider-social-media-icon .fa-instagram {
+    color: #FF5552;
 }
