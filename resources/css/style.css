@@ -375,21 +375,17 @@ button.owl-dot.active {
 }
 
 .events-slider-wrapper {
-    display: inline-block;
-    width: 50%;
+    width: 100%;
 }
-.carousel-active {
-    display: flex;
-    width: calc(100% + 88px);
-}
+
 .events-slider-single-item {
-    margin-right: 44px;
+    margin: 120px 22px;
 }
 
 .events-section .card {
     padding: 30px;
     border: none;
-    box-shadow: 0 0 77px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 26px rgba(0, 0, 0, 0.16);
     border-radius: 15px;
 }
 
@@ -460,12 +456,18 @@ button.owl-dot.active {
     background: transparent;
 }
 
+.card-footer-btn {
+    display: flex;
+}
+
 .events-section .card-footer-btn a {
     font-size: 16px;
     font-weight: 700;
     line-height: 17px;
     color: #717CFF;
     text-transform: capitalize;
+    display: flex;
+    align-items: center;
 }
 
 .events-section .card-footer-btn a img {
@@ -481,4 +483,9 @@ button.owl-dot.active {
     font-weight: 600;
     line-height: 28px;
     color: #373737;
+}
+
+.owl-carousel .owl-item img {
+    display: flex;
+    width: auto;
 }

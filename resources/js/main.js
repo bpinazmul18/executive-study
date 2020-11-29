@@ -10,7 +10,7 @@ $(document).ready(function(){
         autoplayHoverPause:true,
     });
 
-    $('.carousel-slider-active').owlCarousel({
+    $('.owl-carousel').owlCarousel({
         loop: true,
         nav:false,
         dots: true,
