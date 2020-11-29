@@ -224,6 +224,9 @@ ul.slider-social-media-icon .fa-instagram {
 }
 .owl-dots {
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 button.owl-dot {
     background: #7C7C7C !important;
@@ -371,7 +374,6 @@ button.owl-dot.active {
     width: 70%;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 80px;
 }
 
 .events-slider-wrapper {
@@ -385,7 +387,7 @@ button.owl-dot.active {
 .events-section .card {
     padding: 30px;
     border: none;
-    box-shadow: 0 0 26px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 28px rgba(0, 0, 0, 0.04);
     border-radius: 15px;
 }
 
@@ -488,4 +490,45 @@ button.owl-dot.active {
 .owl-carousel .owl-item img {
     display: flex;
     width: auto;
+}
+/***************************/
+/******WE-COVERED-AREA******/
+/***************************/
+.we-covered-section {
+    background: #FAFAFA;
+}
+.section-title {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 56px;
+}
+.we-covered-slider {
+    width: 100%;
+}
+.we-covered-slider-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.we-covered-slider-single-item {
+    margin: 0 22px;
+}
+
+.we-covered-section .card {
+    border: none;
+    background: #FAFAFA;
+}
+
+.we-covered-section .card-title {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #37474F;
+}
+
+.we-covered-section .text-para {
+    height: 56px;
+    overflow: hidden;
+    line-height: 27px;
 }
