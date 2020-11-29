@@ -9,6 +9,9 @@ body {
 /***************************/
 /****REUSABLE-COMPONENTS****/
 /***************************/
+.section-p {
+    padding: 55px 0;
+}
 a.nav-btn, .nav-btn {
     font-size: 17px;
     font-weight: 500;
@@ -49,6 +52,13 @@ a.nav-btn:hover, .nav-btn:hover {
 .btn:hover {
     border-color: #717CFF;
     color: #ddd;
+}
+.section-title h2 {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #373737;
+    text-align: center;
 }
 /***************************/
 /******HEADER-TOP-AREA******/
@@ -113,23 +123,19 @@ a.nav-btn:hover, .nav-btn:hover {
     padding-top: 75px;
     padding-bottom: 54px;
     height: 100vh;
-}
-
-.slider-img {
     position: relative;
     z-index: 1;
-    width: 100%;
+    overflow: hidden;
 }
 
-.slider-img:after {
+.slider-woman-bg:after {
     position: absolute;
     content: "";
-    background: url(../img/slider-overlay.png);
-    bottom: 0;
-    right: 0;
+    background: url(../img/slider-overlay.png) no-repeat bottom right;
+    bottom: -30%;
+    right: -35%;
     width: 100%;
     height: 100%;
-    overflow: hidden;
     z-index: -1;
 }
 
@@ -173,7 +179,7 @@ ul.slider-social-media-icon li {
 }
 ul.slider-social-media-icon li a {
     display: inline-block;
-    font-size: 32px;
+    font-size: 26px;
 }
 ul.slider-social-media-icon .fa-facebook-f {
     color: #3C5B9A;
@@ -186,3 +192,53 @@ ul.slider-social-media-icon .fa-twitter {
 ul.slider-social-media-icon .fa-instagram {
     color: #FF5552;
 }
+
+/***************************/
+/******FEATURES-AREA******/
+/***************************/
+
+.features-section {
+    background: #FAFAFA;
+}
+.features-section .section-title{
+    width: 100%;
+    text-transform: uppercase;
+    opacity: .73;
+    margin-bottom: 70px;
+}
+.slider-area {
+    width: 100%;
+}
+.features-slider-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.features-slider-single-item {
+    margin: 0 37px;
+}
+.owl-dots {
+    text-align: center;
+}
+button.owl-dot {
+    background: #7C7C7C !important;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 10px;
+    opacity: 0.32;
+}
+button.owl-dot.active {
+    background: #717CFF !important;
+    width: 14px;
+    height: 14px;
+    opacity: 1;
+}
+.owl-carousel .owl-dots.disabled {
+    display: block;
+}
+
+/***************************/
+/******SERVICES-AREA******/
+/***************************/
