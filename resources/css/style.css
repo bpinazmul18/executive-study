@@ -54,9 +54,9 @@ a.nav-btn:hover, .nav-btn:hover {
     color: #ddd;
 }
 .section-title h2 {
-    font-size: 23px;
-    font-weight: 500;
-    line-height: 23px;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 54px;
     color: #373737;
     text-align: center;
 }
@@ -205,6 +205,11 @@ ul.slider-social-media-icon .fa-instagram {
     text-transform: uppercase;
     opacity: .73;
     margin-bottom: 70px;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #373737;
+    text-align: center;
 }
 .slider-area {
     width: 100%;
@@ -242,3 +247,238 @@ button.owl-dot.active {
 /***************************/
 /******SERVICES-AREA******/
 /***************************/
+
+.services-section {
+    padding: 65px 0;
+}
+
+.services-section .section-title {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 78px;
+}
+.services-section .card {
+    box-shadow: 0 0 77px rgba(0,0,0,0.06);
+    border: none;
+    border-radius: 15px;
+}
+.services-section .card-img-top {
+    width: 76px;
+    height: auto;
+    margin: 16px 30px;
+}
+
+.services-section .card-body {
+    padding: 22px;
+    padding-right: 16px;
+}
+
+.services-section .card-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37px;
+    color: #37474F;
+    margin-bottom: 10px;
+}
+.services-section .card-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #37474F;
+    height: 80px;
+    overflow: hidden;
+    margin-bottom: 42px;
+}
+
+.services-section .card-link {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 17px;
+    color:#717CFF;
+}
+
+.services-section .card-link img {
+    margin-left: 12px;
+}
+
+.services-section .row:last-child {
+    margin-top: 50px;
+}
+
+/***************************/
+/******NEWS-AREA******/
+/***************************/
+.news-section {
+    padding: 60px;
+    background: #FAFAFA;
+}
+.news-section .section-title {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.news-section .card {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 6px 42px rgba(0, 0, 0, 0.16);
+    border: none;
+}
+.news-section .card-body {
+    padding: 26px;
+    margin-bottom: 28px;
+}
+.news-section .card p {
+    margin: 0;
+    margin-bottom: 12px;
+}
+.news-section .card p span{
+    font-size: 16px;
+    font-weight: 600;
+    color: #565656;
+    line-height: 16px;
+    margin-left: 12px;
+}
+
+.news-section .card-link {
+    height: 56px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #252525;
+}
+
+.news-section .news-btn {
+    display: block;
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-top: 142px;
+}
+
+.news-section .news-btn span {
+    margin-left: 14px;
+}
+/***************************/
+/******EVENTS-AREA******/
+/***************************/
+.events-section.section-p {
+    padding: 94px 0;
+}
+
+.events-section .section-title {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.events-slider-wrapper {
+    display: inline-block;
+    width: 50%;
+}
+.carousel-active {
+    display: flex;
+    width: calc(100% + 88px);
+}
+.events-slider-single-item {
+    margin-right: 44px;
+}
+
+.events-section .card {
+    padding: 30px;
+    border: none;
+    box-shadow: 0 0 77px rgba(0, 0, 0, 0.16);
+    border-radius: 15px;
+}
+
+.events-section .card-title {
+
+}
+
+.events-section .card-icon {
+    width: 76px!important;
+    height: 76px;
+    background: #EBEDFF;
+    border-radius: 11px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+
+.events-section .card-icon span:first-child {
+    font-size: 26px;
+    font-weight: 700;
+    color: #717CFF;
+    line-height: 27px;
+    display: block;
+}
+.events-section .card-icon span:last-child {
+    font-size: 18px;
+    font-weight: 600;
+    color: #717CFF;
+    line-height: 18px;
+}
+
+.events-section .card-body {
+    padding: 0;
+}
+
+.events-section .card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.events-section .event-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37px;
+    color: #37474F;
+}
+
+.events-section .event-title:last-child {
+    padding-right: 20px;
+}
+
+.events-section .text-para {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgba(55, 71, 79, 0.75);
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.events-section .card-footer {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+
+.events-section .card-footer-btn a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px;
+    color: #717CFF;
+    text-transform: capitalize;
+}
+
+.events-section .card-footer-btn a img {
+    margin-left: 10px;
+}
+.events-section .card-footer-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.events-section .card-footer-text span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #373737;
+}

@@ -9,4 +9,15 @@ $(document).ready(function(){
         autoplayTimeout:1500,
         autoplayHoverPause:true,
     });
+
+    $('.carousel-slider-active').owlCarousel({
+        loop: true,
+        nav:false,
+        dots: true,
+        items: 2,
+        margin:10,
+        autoplay:true,
+        autoplayTimeout:1500,
+        autoplayHoverPause:true,
+    });
 });

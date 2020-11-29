@@ -19,7 +19,7 @@
     url('../fonts/Metropolis-Bold.woff') format('woff'),
     url('../fonts/Metropolis-Bold.ttf') format('truetype'),
     url('../fonts/Metropolis-Bold.svg#Metropolis-Bold') format('svg');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
