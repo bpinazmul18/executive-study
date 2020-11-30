@@ -216,7 +216,7 @@ ul.main-nav-bar li a:hover {
 .section-slider-area {
     padding-top: 75px;
     padding-bottom: 54px;
-    height: 100vh;
+    min-height: 100vh;
     /*position: relative;*/
     /*z-index: 1;*/
     /*overflow: hidden;*/
@@ -581,6 +581,7 @@ button.owl-dot.active {
 
 .owl-carousel .owl-item img {
     display: flex;
+    max-width: 100%;
     width: auto;
 }
 /***************************/
