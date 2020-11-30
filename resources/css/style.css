@@ -207,7 +207,9 @@ ul.main-nav-bar li a:hover {
 .sticky span.bar-icon {
     margin-top: 30px;
 }
-
+.sticky .nav-bar {
+    margin: 0;
+}
 /***************************/
 /******SLIDER-AREA******/
 /***************************/
