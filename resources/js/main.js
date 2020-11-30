@@ -45,3 +45,27 @@ $(document).ready(function(){
     });
 
 });
+
+
+function openNav(){
+    document.getElementById("myNav").style.display = "flex";
+}
+
+function closeNav(){
+    document.getElementById("myNav").style.display = "none";
+}
+
+/*SITCKY MENU*/
+var stickymenu = document.getElementById("stickymenu")
+var stickymenuoffset = stickymenu.offsetTop
+
+window.addEventListener("scroll", function(e){
+    requestAnimationFrame(function(){
+        if (window.pageYOffset > stickymenuoffset){
+            stickymenu.classList.add('sticky')
+        }
+        else{
+            stickymenu.classList.remove('sticky')
+        }
+    })
+})

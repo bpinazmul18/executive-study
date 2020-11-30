@@ -14,35 +14,54 @@
     <link rel="stylesheet" href="vendors/css/owl.theme.default.min.css">
     <!--Main CSS-->
     <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
 
     <title>Executive Study</title>
 </head>
 <body>
 <!--HEADER-NAV-AREA-->
-<header class="header-top-section">
+<header class="header-top-section" id="stickymenu">
     <div class="container">
-        <nav>
-            <div class="row">
-                <div class="col-md-12">
-                        <a href="index.html" class="logo">
-                            <img src="resources/img/logo.png" alt="Company Logo">
-                        </a>
-                        <div class="main-nav">
+        <div class="row">
+            <div class="col-md-12">
+                   <nav>
+                       <a href="index.html" class="logo">
+                           <img src="resources/img/logo.png" alt="Company Logo">
+                       </a>
+                       <div class="main-nav">
 
-                            <ul class="nav-bar">
-                                <li class="active"><a href="#home">home</a></li>
-                                <li><a href="#about">about us</a></li>
-                                <li><a href="#services">our services</a></li>
-                                <li><a href="#responsibility">responsibilities</a></li>
-                                <li><a href="#country">country</a></li>
-                            </ul>
-                            <a href="#" class="nav-btn">
-                                apply
-                            </a>
-                        </div>
-                </div>
+                           <ul class="nav-bar">
+                               <li class="active"><a href="#home">home</a></li>
+                               <li><a href="#about">about us</a></li>
+                               <li><a href="#services">our services</a></li>
+                               <li><a href="#responsibility">responsibilities</a></li>
+                               <li><a href="#country">country</a></li>
+                           </ul>
+                           <a href="#" class="nav-btn">
+                               apply
+                           </a>
+                       </div>
+                       <div class="mobile-menu">
+                           <span class="bar-icon" onclick="openNav()"><i class="fas fa-bars"></i></span>
+                           <div class="overlay" id="myNav">
+                               <a href="javascript:void(0)" onclick="closeNav()" class="closebtn">&times;</a>
+                               <div class="overlay-content">
+                                   <ul class="main-nav-bar">
+                                       <li><a onclick="closeNav()" href="#home">home</a></li>
+                                       <li><a onclick="closeNav()" href="#about">about us</a></li>
+                                       <li><a onclick="closeNav()" href="#services">our services</a></li>
+                                       <li><a onclick="closeNav()" href="#responsibility">responsibilities</a></li>
+                                       <li><a onclick="closeNav()" href="#country">country</a></li>
+                                   </ul>
+                                   <a href="#" class="nav-btn">
+                                       apply
+                                   </a>
+                               </div>
+                           </div>
+                       </div>
+                   </nav>
             </div>
-        </nav>
+        </div>
     </div>
 </header>
 <!--SLIDER-AREA-->
