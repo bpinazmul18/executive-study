@@ -11,7 +11,7 @@ $(document).ready(function(){
         autoplayHoverPause:true,
     });
     //EVENTS-AREA-SLIDER
-    $('.owl-carousel').owlCarousel({
+    $('.owl-carousel-activator-events').owlCarousel({
         loop: true,
         nav:false,
         dots: true,
@@ -21,16 +21,27 @@ $(document).ready(function(){
         autoplayTimeout:1500,
         autoplayHoverPause:true,
     });
-
-    $('.we-covered-owl-carousel').owlCarousel({
+    //COVERED-AREA-SLIDER
+    $('.owl-carousel-activator-covered-section').owlCarousel({
         loop: true,
         nav:false,
         dots: true,
         items: 3,
         margin:10,
-        // autoplay:false,
-        // autoplayTimeout:1500,
-        // autoplayHoverPause:true,
+        autoplay:true,
+        autoplayTimeout:1500,
+        autoplayHoverPause:true,
+    });
+    //TESTIMONIAL-AREA-SLIDER
+    $('.testimonial-slider-activator').owlCarousel({
+        loop: true,
+        nav:false,
+        dots: true,
+        items: 2,
+        margin:40,
+        autoplay:true,
+        autoplayTimeout:1500,
+        autoplayHoverPause:true,
     });
 
 });
