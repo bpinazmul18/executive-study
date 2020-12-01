@@ -254,3 +254,126 @@
         font-size: 16px;
     }
 }
+
+@media only screen and (max-width: 576px) {
+    .section-slider-area {
+        padding: 0;
+        min-height: 70vh;
+    }
+    .slider-text-box {
+        padding-top: 40px;
+    }
+    .slider-text-box h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .btn {
+        font-size: 18px;
+    }
+    .slider-btn {
+        padding: 4px 12px;
+        margin-bottom: 40px;
+    }
+    .section-p {
+        padding: 30px 0;
+    }
+    .section-title h2 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .text-para {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .services-section .card-img-top {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .news-section .card>img {
+        width: 100%;
+    }
+    .news-section .section-title {
+        margin-bottom: 0;
+    }
+
+    .news-section .card p span {
+        font-size: 14px;
+    }
+    .news-section .card-body {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 10px;
+    }
+    .news-section .card-link {
+        font-size: 16px;
+    }
+
+    .events-section .card-icon span:first-child {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .events-section .event-title {
+        font-size: 18px;
+    }
+    .events-section .card-title {
+        flex-direction: column;
+        align-items: center;
+    }
+    .events-section .card-icon {
+        margin: 0;
+    }
+    h3.event-title {
+        margin-top: 24px;
+        padding: 0 40px;
+    }
+    .events-section .event-title:last-child {
+        padding: inherit;
+    }
+    .events-section .card-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .events-section .card-footer-text {
+        margin-top: 10px;
+    }
+
+    .we-covered-section .card-title {
+        font-size: 18px;
+    }
+    .testimonial-slider-single-item .card-header-text h3 {
+        font-size: 18px;
+    }
+    .testimonial-slider-single-item .card-header-text span {
+        font-size: 16px;
+    }
+    .testimonial-slider-single-item .card-header-text {
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonial-slider-single-item .card-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonial-slider-single-item .card-header .card-header-icon img {
+        width: auto;
+    }
+    .testimonial-slider-single-item .card-header .card-header-icon {
+        margin: 0;
+    }
+    .dreams-section .section-title h2 {
+        font-size: 24px;
+    }
+}
