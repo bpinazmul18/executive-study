@@ -157,6 +157,9 @@
     .testimonial-section.section-p {
         padding: 20px 0;
     }
+    .testimonial-section .section-title {
+        margin: 0;
+    }
     .testimonial-slider-single-item .card{
         flex-direction: column;
     }
@@ -166,5 +169,88 @@
     }
     .testimonial-slider-single-item .card-header {
         margin-bottom: 16px;
+    }
+    .testimonial-slider-wrapper .owl-dots {
+        padding: 0;
+    }
+    .dreams-section.section-p {
+        padding: 40px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section-slider-area {
+        padding-top: 0;
+    }
+    .slider-text-box h1 {
+        padding: 0;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+
+    .features-section .section-title {
+        margin-bottom: 40px;
+    }
+    .section-title h2 {
+        font-size: 28px;
+    }
+
+    .services-section {
+        padding: 40px 0;
+    }
+    .text-para {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .services-section .section-title {
+        margin-bottom: 10px;
+    }
+
+
+    .news-section {
+        padding: 40px 0;
+    }
+    .news-section .card {
+        flex-direction: column;
+    }
+    .news-section .card>img {
+        padding: 0;
+    }
+    .news-section .card-link {
+        font-size: 20px;
+    }
+
+    .we-covered-section .card-title {
+        font-size: 20px;
+    }
+
+    .dreams-btn {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .footer-widget ul {
+        padding: 0;
+    }
+    .address {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .footer-widget ul li {
+        margin: 6px 0;
+    }
+    .footer-widget ul li a {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .social-media-wrapper {
+        justify-content: flex-start;
+    }
+    ul.social-media-icon li {
+        margin-right: 20px;
+    }
+    .footer-copy-rights-content p {
+        font-size: 16px;
     }
 }

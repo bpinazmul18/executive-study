@@ -408,7 +408,7 @@ button.owl-dot.active {
 /******NEWS-AREA******/
 /***************************/
 .news-section {
-    padding: 60px;
+    padding: 60px 0;
     background: #FAFAFA;
 }
 .news-section .section-title {

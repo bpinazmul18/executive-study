@@ -32,6 +32,15 @@ $(document).ready(function(){
         // autoplay:true,
         // autoplayTimeout:1500,
         // autoplayHoverPause:true,
+        responsiveClass: true,
+        responsive: {
+            0:{
+                items:1
+            },
+            768:{
+                items:2
+            }
+        }
     });
     //COVERED-AREA-SLIDER
     $('.owl-carousel-activator-covered-section').owlCarousel({
