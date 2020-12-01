@@ -6,9 +6,21 @@ $(document).ready(function(){
         dots: true,
         items: 4,
         margin: 10,
-        autoplay:true,
-        autoplayTimeout:1500,
-        autoplayHoverPause:true,
+        // autoplay:true,
+        // autoplayTimeout:1500,
+        // autoplayHoverPause:true,
+        responsiveClass: true,
+        responsive: {
+            0:{
+                items:2
+            },
+            768:{
+                items:3
+            },
+            992:{
+                items:4
+            }
+        }
     });
     //EVENTS-AREA-SLIDER
     $('.owl-carousel-activator-events').owlCarousel({
@@ -17,9 +29,9 @@ $(document).ready(function(){
         dots: true,
         items: 2,
         margin:10,
-        autoplay:true,
-        autoplayTimeout:1500,
-        autoplayHoverPause:true,
+        // autoplay:true,
+        // autoplayTimeout:1500,
+        // autoplayHoverPause:true,
     });
     //COVERED-AREA-SLIDER
     $('.owl-carousel-activator-covered-section').owlCarousel({
@@ -28,9 +40,21 @@ $(document).ready(function(){
         dots: true,
         items: 3,
         margin:10,
-        autoplay:true,
-        autoplayTimeout:1500,
-        autoplayHoverPause:true,
+        // autoplay:true,
+        // autoplayTimeout:1500,
+        // autoplayHoverPause:true,
+        responsiveClass: true,
+        responsive: {
+            0:{
+                items:2
+            },
+            768:{
+                items:2
+            },
+            992:{
+                items:3
+            }
+        }
     });
     //TESTIMONIAL-AREA-SLIDER
     $('.testimonial-slider-activator').owlCarousel({
@@ -39,9 +63,18 @@ $(document).ready(function(){
         dots: true,
         items: 2,
         margin:40,
-        autoplay:true,
-        autoplayTimeout:1500,
-        autoplayHoverPause:true,
+        // autoplay:true,
+        // autoplayTimeout:1500,
+        // autoplayHoverPause:true,
+        responsiveClass: true,
+        responsive: {
+            0:{
+                items:1
+            },
+            992:{
+                items:2
+            }
+        }
     });
 
 });

@@ -252,7 +252,6 @@ ul.main-nav-bar li a:hover {
 }
 
 .slider-text-box .text-para {
-    height: 80px;
     overflow: hidden;
     margin-bottom: 36px;
 }
@@ -387,8 +386,6 @@ button.owl-dot.active {
     font-weight: 500;
     line-height: 28px;
     color: #37474F;
-    height: 80px;
-    overflow: hidden;
     margin-bottom: 42px;
 }
 
@@ -443,7 +440,6 @@ button.owl-dot.active {
 }
 
 .news-section .card-link {
-    height: 56px;
     font-size: 22px;
     font-weight: 700;
     line-height: 22px;
@@ -625,7 +621,6 @@ button.owl-dot.active {
 
 .we-covered-section .text-para {
     font-size: 16px;
-    height: 56px;
     overflow: hidden;
     line-height: 27px;
 }
@@ -711,7 +706,7 @@ button.owl-dot.active {
 }
 .apply-btn {
     padding: 8px 34px 12px;
-    display: block;
+    display: inline-block;
 }
 
 /***************************/

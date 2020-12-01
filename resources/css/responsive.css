@@ -5,6 +5,12 @@
     .services-section .card-title {
         font-size: 20px;
     }
+    .dreams-section .section-title h2 {
+        font-size: 30px;
+    }
+    .dreams-section .apply-btn {
+        padding: 5px 20px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -13,5 +19,152 @@
     }
     .mobile-menu {
         display: block;
+    }
+    .section-slider-area {
+        padding-top: 30px;
+    }
+    .slider-text-box h1 {
+        font-size: 46px;
+    }
+    .text-para {
+        font-size: 20px;
+    }
+    .slider-text-box .text-para {
+        margin-bottom: 30px;
+    }
+    .slider-btn {
+        margin-bottom: 60px;
+    }
+    ul.slider-social-media-icon {
+        padding-bottom: 34px;
+    }
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    .services-section .section-title {
+        margin-bottom: 60px;
+        width: 100%;
+        padding: 0 20px;
+    }
+    .card {
+        flex-direction: row;
+        margin: 20px 0;
+    }
+    .services-section .card-img-top {
+        width: 76px;
+        height: 76px;
+        margin-top: 80px;
+    }
+    .services-section .card-text {
+        margin-bottom: 20px;
+    }
+    .services-section .row:last-child {
+        margin-top: 0;
+    }
+
+    .news-section .section-title {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 0 20px;
+    }
+    .news-section .card {
+        display: flex;
+        flex-direction: row;
+    }
+    .news-section .card>img {
+        padding: 20px;
+        width: auto;
+    }
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .card-body p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: flex-start;
+    }
+    .news-section .news-btn {
+        margin-top: 40px;
+    }
+
+
+    .events-section.section-p {
+        padding: 40px 0;
+    }
+    .events-section .section-title {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .events-section .text-para {
+        font-size: 20px;
+    }
+    .events-slider-single-item {
+        margin: 40px 20px;
+    }
+    .events-slider-single-item .card {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .events-section .event-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .events-section .event-title:last-child {
+        padding-right: 0;
+    }
+    .events-section .card-title {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .events-section .card-icon {
+        display: block;
+        padding: 20px;
+    }
+    .events-section .card-body .text-para {
+        font-size: 16px;
+    }
+    .card-footer-text img {
+        width: 26px;
+        height: 20px;
+        margin-top: 5px;
+    }
+    .events-section .card-footer-text span {
+        font-size: 14px;
+    }
+
+    .we-covered-section.section-p {
+        padding: 40px 0;
+    }
+    .section-title {
+        width: 100%;
+    }
+    .we-covered-section .section-title {
+        margin-bottom: 0;
+    }
+    .we-covered-slider-single-item .card {
+        flex-direction: column;
+    }
+    .we-covered-section .card-title {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .testimonial-section.section-p {
+        padding: 20px 0;
+    }
+    .testimonial-slider-single-item .card{
+        flex-direction: column;
+    }
+    .testimonial-slider-single-item .card-header-text h3 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .testimonial-slider-single-item .card-header {
+        margin-bottom: 16px;
     }
 }
