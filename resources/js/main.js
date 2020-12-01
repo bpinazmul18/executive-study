@@ -12,11 +12,12 @@ $(document).ready(function(){
         responsiveClass: true,
         responsive: {
             0:{
-                items:1
+                items:1,
+                dots: false
             },
             576:{
                 items:2
-            }
+            },
             768:{
                 items:3
             },
@@ -38,7 +39,8 @@ $(document).ready(function(){
         responsiveClass: true,
         responsive: {
             0:{
-                items:1
+                items:1,
+                dots: false
             },
             768:{
                 items:2
@@ -58,7 +60,8 @@ $(document).ready(function(){
         responsiveClass: true,
         responsive: {
             0:{
-                items:1
+                items:1,
+                dots: false
             },
             768:{
                 items:2
@@ -81,7 +84,8 @@ $(document).ready(function(){
         responsiveClass: true,
         responsive: {
             0:{
-                items:1
+                items:1,
+                dots: false
             },
             992:{
                 items:2
