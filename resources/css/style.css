@@ -21,7 +21,7 @@ a.nav-btn, .nav-btn {
     color: #373737;
     border: 2px solid #717CFF;
     border-radius: 11px;
-    padding: 3px 28px 10px 30px;
+    padding: 6px 30px;
     transition: 0.3s;
 }
 
@@ -64,36 +64,12 @@ a.nav-btn:hover, .nav-btn:hover {
 /******HEADER-TOP-AREA******/
 /***************************/
 
-.logo {
-    display: inline-block;
-    float: left;
-    margin-top: 24px;
-}
-.main-nav {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding-top: 28px;
-}
-.nav-bar {
-    margin-top: 10px;
-}
-.main-nav ul.nav-bar {
-    list-style: none;
-}
-.main-nav ul.nav-bar li {
-    display: inline-block;
+.navbar-nav li {
     margin-left: 65px;
-    position: relative;
+    display: inline-block;
 }
-.main-nav ul.nav-bar li a {
-    font-size: 17px;
-    font-weight: 500;
-    text-decoration: none;
-    text-transform: capitalize;
-    color: #373737;
-}
-.main-nav ul.nav-bar li:after {
+
+.navbar-nav li:after {
     position: relative;
     content: "";
     bottom: 0;
@@ -104,103 +80,150 @@ a.nav-btn:hover, .nav-btn:hover {
     display: block;
     transition: 0.3s;
 }
-.main-nav ul.nav-bar li.active:after {
-    background: #717CFF;
-}
-.main-nav ul.nav-bar li:hover:after {
+.navbar-nav li:hover:after {
     background: #717CFF;
     width: 100%;
 }
-
-.nav-btn {
-    margin-left: 65px;
-}
-
-/*MOBILE MENU*/
-.mobile-menu {
-    display: none;
-}
-span.bar-icon {
-    float: right;
-    font-size: 30px;
-    margin-top: 40px;
-    cursor: pointer;
-}
-.overlay {
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.9);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row-reverse;
-    display: none;
-}
-
-.overlay-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-ul.main-nav-bar {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    align-items: flex-end;
-    width: 100%;
-}
-
-ul.main-nav-bar li {
-    margin: 10px 0;
-}
-
-ul.main-nav-bar li a {
-    font-size: 24px;
+.navbar-nav li a {
+    font-size: 17px;
     font-weight: 500;
     text-decoration: none;
     text-transform: capitalize;
-    color: #fff;
+    color: #373737;
+    display: inline-block;
 }
-ul.main-nav-bar li a:hover {
-    opacity: 0.7;
-}
-.closebtn {
-    align-self: flex-start;
-    font-size: 50px;
-    margin-top: 20px;
-}
-.mobile-menu a.closebtn:hover {
-    text-decoration: none;
-
-}
-.mobile-menu a.nav-btn, .nav-btn {
-    padding: 10px 70px;
-    border: 2px solid #717CFF;
-    color: #fff;
-}
-
-.mobile-menu a.nav-btn:hover, .nav-btn:hover {
+.navbar-nav li.active:after {
     background: #717CFF;
 }
+.nav-btn {
+    margin-left: 65px;
+}
+/*.logo {*/
+/*    display: inline-block;*/
+/*    float: left;*/
+/*    margin-top: 24px;*/
+/*}*/
+/*.main-nav {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: flex-end;*/
+/*    padding-top: 28px;*/
+/*}*/
+/*.nav-bar {*/
+/*    margin-top: 10px;*/
+/*}*/
+/*.main-nav ul.nav-bar {*/
+/*    list-style: none;*/
+/*}*/
+/*.main-nav ul.nav-bar li {*/
+/*    display: inline-block;*/
+/*    margin-left: 65px;*/
+/*    position: relative;*/
+/*}*/
+/*.main-nav ul.nav-bar li a {*/
+/*    font-size: 17px;*/
+/*    font-weight: 500;*/
+/*    text-decoration: none;*/
+/*    text-transform: capitalize;*/
+/*    color: #373737;*/
+/*}*/
+/*.main-nav ul.nav-bar li:after {*/
+/*    position: relative;*/
+/*    content: "";*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    width: 23px;*/
+/*    height: 3px;*/
+/*    background: transparent;*/
+/*    display: block;*/
+/*    transition: 0.3s;*/
+/*}*/
+/*.main-nav ul.nav-bar li.active:after {*/
+/*    background: #717CFF;*/
+/*}*/
+/*.main-nav ul.nav-bar li:hover:after {*/
+/*    background: #717CFF;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.nav-btn {*/
+/*    margin-left: 65px;*/
+/*}*/
+
+/*!*MOBILE MENU*!*/
+/*.mobile-menu {*/
+/*    display: none;*/
+/*}*/
+/*span.bar-icon {*/
+/*    float: right;*/
+/*    font-size: 30px;*/
+/*    margin-top: 40px;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.overlay {*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    background: rgba(0, 0, 0, 0.9);*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    z-index: 99;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-evenly;*/
+/*    flex-direction: row-reverse;*/
+/*    display: none;*/
+/*}*/
+
+/*.overlay-content {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*ul.main-nav-bar {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    list-style-type: none;*/
+/*    align-items: flex-end;*/
+/*    width: 100%;*/
+/*}*/
+
+/*ul.main-nav-bar li {*/
+/*    margin: 10px 0;*/
+/*}*/
+
+/*ul.main-nav-bar li a {*/
+/*    font-size: 24px;*/
+/*    font-weight: 500;*/
+/*    text-decoration: none;*/
+/*    text-transform: capitalize;*/
+/*    color: #fff;*/
+/*}*/
+/*ul.main-nav-bar li a:hover {*/
+/*    opacity: 0.7;*/
+/*}*/
+/*.closebtn {*/
+/*    align-self: flex-start;*/
+/*    font-size: 50px;*/
+/*    margin-top: 20px;*/
+/*}*/
+/*.mobile-menu a.closebtn:hover {*/
+/*    text-decoration: none;*/
+
+/*}*/
+/*.mobile-menu a.nav-btn, .nav-btn {*/
+/*    padding: 10px 70px;*/
+/*    border: 2px solid #717CFF;*/
+/*    color: #fff;*/
+/*}*/
+
+/*.mobile-menu a.nav-btn:hover, .nav-btn:hover {*/
+/*    background: #717CFF;*/
+/*}*/
 /*BOOTSTRAP MENU*/
 /*BOOTSTRAP MENU*/
-.navbar-toggler {
-    color: rgba(0, 0, 0, 0.5);
-    border-color: rgba(0, 0, 0, 0.1);
-}
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-.navbar-toggler {
-    float: right;
-    margin: 20px;
-}
 
 /*BOOTSTRAP MENU*/
 /*BOOTSTRAP MENU*/
