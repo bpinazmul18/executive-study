@@ -4,12 +4,13 @@ $(document).ready(function(){
         loop: true,
         nav:false,
         dots: true,
-        items: 4,
+        items: 1,
         margin: 10,
         autoplay:true,
         autoplayTimeout:1500,
         autoplayHoverPause:true,
         responsiveClass: true,
+        responsiveBaseElement: 'body',
         responsive: {
             0:{
                 items:1,
@@ -31,12 +32,13 @@ $(document).ready(function(){
         loop: true,
         nav:false,
         dots: true,
-        items: 2,
+        items: 1,
         margin:10,
         autoplay:true,
         autoplayTimeout:1500,
         autoplayHoverPause:true,
         responsiveClass: true,
+        responsiveBaseElement: 'body',
         responsive: {
             0:{
                 items:1,
@@ -52,12 +54,13 @@ $(document).ready(function(){
         loop: true,
         nav:false,
         dots: true,
-        items: 3,
+        items: 1,
         margin:10,
         autoplay:true,
         autoplayTimeout:1500,
         autoplayHoverPause:true,
         responsiveClass: true,
+        responsiveBaseElement: 'body',
         responsive: {
             0:{
                 items:1,
@@ -76,12 +79,13 @@ $(document).ready(function(){
         loop: true,
         nav:false,
         dots: true,
-        items: 2,
+        items: 1,
         margin:40,
         autoplay:true,
         autoplayTimeout:1500,
         autoplayHoverPause:true,
         responsiveClass: true,
+        responsiveBaseElement: 'body',
         responsive: {
             0:{
                 items:1,
