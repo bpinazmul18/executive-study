@@ -94,16 +94,6 @@ $(document).ready(function(){
     });
 
 });
-
-
-function openNav(){
-    document.getElementById("myNav").style.display = "flex";
-}
-
-function closeNav(){
-    document.getElementById("myNav").style.display = "none";
-}
-
 /*SITCKY MENU*/
 var stickymenu = document.getElementById("stickymenu")
 var stickymenuoffset = stickymenu.offsetTop

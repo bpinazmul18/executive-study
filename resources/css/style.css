@@ -1,3 +1,53 @@
+/*FONT FACE AREA*/
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Medium.eot');
+    src: url('../fonts/Metropolis-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Medium.woff2') format('woff2'),
+    url('../fonts/Metropolis-Medium.woff') format('woff'),
+    url('../fonts/Metropolis-Medium.ttf') format('truetype'),
+    url('../fonts/Metropolis-Medium.svg#Metropolis-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Bold.eot');
+    src: url('../fonts/Metropolis-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Bold.woff2') format('woff2'),
+    url('../fonts/Metropolis-Bold.woff') format('woff'),
+    url('../fonts/Metropolis-Bold.ttf') format('truetype'),
+    url('../fonts/Metropolis-Bold.svg#Metropolis-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Metropolis Semi';
+    src: url('../fonts/Metropolis-SemiBold.eot');
+    src: url('../fonts/Metropolis-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-SemiBold.woff2') format('woff2'),
+    url('../fonts/Metropolis-SemiBold.woff') format('woff'),
+    url('../fonts/Metropolis-SemiBold.ttf') format('truetype'),
+    url('../fonts/Metropolis-SemiBold.svg#Metropolis-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Black.eot');
+    src: url('../fonts/Metropolis-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Black.woff2') format('woff2'),
+    url('../fonts/Metropolis-Black.woff') format('woff'),
+    url('../fonts/Metropolis-Black.ttf') format('truetype'),
+    url('../fonts/Metropolis-Black.svg#Metropolis-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+/*BASIC SETUP*/
 html {
     scroll-behavior: smooth;
 }
